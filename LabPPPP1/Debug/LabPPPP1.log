@@ -1,0 +1,4 @@
+﻿  LabPPPP1.cpp
+C:\Users\Professional\source\repos\LabPPPP1\LabPPPP1\LabPPPP1.cpp(239,2): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Professional\source\repos\LabPPPP1\LabPPPP1\LabPPPP1.cpp(240,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  LabPPPP1.vcxproj -> C:\Users\Professional\source\repos\LabPPPP1\Debug\LabPPPP1.exe
