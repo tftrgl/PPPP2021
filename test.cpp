@@ -183,49 +183,49 @@ class TestOutput : public ::testing::Test {
 protected:
 	void SetUp() override {
 		input.push_back({ 0, 0, 0,
-				0, 0, 0 });
+				  0, 0, 0 });
 		result.push_back("5");
 		input.push_back({ 0, 2, 8, 
-				0, 0, 0 });
+				  0, 0, 0 });
 		result.push_back("4 4");
 		input.push_back({ 0, 2, 8,
-				0, 4, 16});
+				  0, 4, 16});
 		result.push_back("4 4");
 		input.push_back({ 2, 0, 8,
-				0, 0, 0 });
+				  0, 0, 0 });
 		result.push_back("3 4");
 		input.push_back({ 2, 0, 8,
-				4, 0, 16 });
+				  4, 0, 16 });
 		result.push_back("3 4");
 		input.push_back({ 1, 1, 5,
-				2, -3, 1 });
+				  2, -3, 1 });
 		result.push_back("2 3.2 1.8");
 		input.push_back({ 1, 0, 5,
-				0, 1, -1 });
+				  0, 1, -1 });
 		result.push_back("2 5 -1");
 		input.push_back({ 1, 0, 0,
-				1, 1, -1 });
+				  1, 1, -1 });
 		result.push_back("2 0 -1");
 		input.push_back({ 1, 1, 5,
-				0, 1, 0 });
+				  0, 1, 0 });
 		result.push_back("2 5 0");
 		input.push_back({ 1, 1, 5,
-				1, 1, 5 });
+				  1, 1, 5 });
 		result.push_back("1 -1 5");
 		input.push_back({ 1, 1, 5,
-				2, 2, 10 });
+				  2, 2, 10 });
 		result.push_back("1 -1 5");
 		input.push_back({ 2, 5, 5,
-				2, 5, 10 });
+				  2, 5, 10 });
 		result.push_back("0");
 		input.push_back({ 2, 5, 5,
-				4, 10, 20 });
+				  4, 10, 20 });
 		result.push_back("0");
 		input.push_back({ 0, 1, 0,
-				0, 2, 20 });
+				  0, 2, 20 });
 		result.push_back("0");
 		input.push_back({ 2, 0, 0,
-				2, 0, 14 });
+				  2, 0, 14 });
 		result.push_back("0");
 	}
 
